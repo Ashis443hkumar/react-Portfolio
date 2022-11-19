@@ -1,13 +1,16 @@
 import React from "react";
 import Filter from "./filter/Filter";
+import Hero from "./hero/Hero";
+import Slide from "./slide/Slide"
 import Service from "./homeService/Service";
 
 export default function Home() {
   return (
     <div>
-        <h2>ryhruyru</h2>
+        <Hero/>
         <Service/>
         <Filter/>
+        <Slide/>
 
     </div>
   );
